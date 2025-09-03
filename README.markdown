@@ -1,7 +1,7 @@
 # Amazon Product Recommendation System
 
 ## Project Overview
-This project builds a recommendation system to suggest products to users based on their past ratings, using the Amazon product reviews dataset. The dataset includes user IDs, product IDs, ratings, and timestamps. The goal is to provide personalized product recommendations using various techniques, including:
+This project develops a recommendation system that suggests products to users based on their past ratings, utilizing the Amazon product reviews dataset. The dataset includes user IDs, product IDs, ratings, and timestamps. The goal is to provide personalized product recommendations using various techniques, including:
 
 - **Rank-Based Recommendation System**: Recommends products based on average ratings and the number of ratings.
 - **User-User Collaborative Filtering**: Recommends products based on the preferences of similar users.
@@ -27,7 +27,7 @@ The dataset is filtered to include users with at least 50 ratings and products w
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/amazon-product-recommendation.git
+   git clone https://github.com/RashaAbuRkab/amazon-product-recommendation.git
    cd amazon-product-recommendation
    ```
 2. Install the required libraries:
@@ -37,7 +37,7 @@ The dataset is filtered to include users with at least 50 ratings and products w
 3. Download the dataset (`ratings_Electronics.csv`) and place it in the project directory.
 
 ## Usage
-1. Open the notebook `Recommendation_Systems_RashaAbuRkab_Notebook_Full_Code_updated.ipynb` in Google Colab or a compatible environment.
+1. Open the notebook `Amazon Product Recommendation System.ipynb` in Google Colab or a compatible environment.
 2. Run the cells sequentially to:
    - Load and preprocess the dataset.
    - Perform exploratory data analysis.
@@ -78,11 +78,7 @@ The optimized SVD model performs best, with the lowest RMSE and balanced precisi
 ## Repository Structure
 ```
 amazon-product-recommendation/
-├── ratings_Electronics.csv           # Dataset
-├── Recommendation_Systems_RashaAbuRkab_Notebook_Full_Code_updated.ipynb  # Main notebook
+├── Amazon Product Recommendation System.ipynb  # Main notebook
 ├── README.md                         # Project documentation
 ├── requirements.txt                  # Required libraries
 ```
-
-## License
-This project is licensed under the MIT License.
